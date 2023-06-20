@@ -1,0 +1,27 @@
+{
+  "name": "nodejs-helmet",
+  "version": "1.0.0",
+  "description": "This repository is meant for testing the functionality and usage of the Helmet NPM package. Helmet is a collection of middleware functions for securing Express.js applications by setting various HTTP headers. This readme file provides instructions on how to set up and run the testing environment.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mohammedshahim/nodejs-helmet.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mohammedshahim/nodejs-helmet/issues"
+  },
+  "homepage": "https://github.com/mohammedshahim/nodejs-helmet#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
